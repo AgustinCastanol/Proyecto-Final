@@ -1,0 +1,54 @@
+.access {
+    background-color: #e9ecef;
+    margin: auto;
+    margin-top: 60px;
+    display: flex;
+    height: 500px;
+    width: 400px;
+    padding-top: 100px;
+    padding-left: 40px;
+    padding-right: 40px;
+    padding-bottom: 36px;
+    align-items: center;
+    flex-direction: column;
+    text-align: right;
+}
+
+.logo_access {
+    padding-bottom: 60px;
+}
+
+.user {
+    margin: 14px;
+}
+
+.inputs {
+    padding: 0;
+}
+
+.password {
+    padding-top: 15px;
+}
+
+.forgotPassword {
+    font-family: 'Google Sans', 'Noto Sans Myanmar UI', arial, sans-serif;
+    font-weight: 100;
+    font-size: small;
+    line-height: 1.33;
+    padding-bottom: 14px;
+}
+
+.login {
+    padding-top: 25px;
+    display: flex;
+    justify-content: space-between;
+}
+
+.createAccount {
+    padding-right: 14px;
+    padding-left: 14px;
+}
+
+.button {
+    padding-right: 7px;
+}

@@ -1,0 +1,53 @@
+.products {
+    margin: auto;
+    padding-left: 10%;
+    padding-top: 10%;
+    padding-right: 10%;
+    padding-bottom: 10%;
+    display: flex;
+}
+
+.col {
+    display: flex;
+    justify-content: center;
+    padding-bottom: 45px;
+}
+
+.product-item {
+    height: 290px;
+    max-width: 220px;
+    border: 1px solid lightgray;
+    padding-bottom: 22px;
+    padding-left: 1%;
+    padding-right: 1%;
+    padding-top: 2%;
+    display: flex;
+    flex-direction: column;
+    flex-wrap: wrap;
+    justify-content: space-between;
+}
+
+.product-desc {
+    color: #666666;
+    font-size: 20px;
+    font-family: 'Lato', sans-serif;
+    text-align: center;
+}
+
+.product-img {
+    position: relative;
+    display: flex;
+    justify-content: center;
+}
+
+.product-btn {
+    background: #333;
+    font-weight: 700;
+    font-size: 13px;
+    box-shadow: none;
+    color: white;
+    height: 38px;
+    font-family:Arial, Helvetica, sans-serif;
+}
+
+/* hacer procedimientos de grillas acomomdadas con flexbox y enmarcadas con un padding para acomodar la siguiente fase de los filtros */
