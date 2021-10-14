@@ -1,0 +1,60 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <%-include('./parcials/head.ejs')%>
+        <link rel="stylesheet" href="./css/pagina principal.css">
+        <title>Pagina Principal</title>
+</head>
+
+<body>
+    <%-include('./parcials/header.ejs')%>
+        <div class="image-slider-block">
+            <div class="container-xxl">
+                <div class="row">
+                    <div class="col">
+                        <div id="carouselExampleControls" class="carousel slide" data-bs-ride="carousel">
+                            <div class="carousel-inner">
+                                <div class="carousel-item active">
+                                    <a href="pagina principal.html">
+                                        <img src="../img/BANNER_VENTA.jpg" class=" w-100">
+                                    </a>
+                                </div>
+                                <div class="carousel-item">
+                                    <a href="">
+                                        <img src="../img/BANNER_PIPIQQ.jpg" class=" w-100">
+                                    </a>
+                                </div>
+                                <div class="carousel-item">
+                                    <a href="">
+                                        <img src="../img/BANNER_AROMAS.jpg" class=" w-100">
+                                    </a>
+                                </div>
+                                <div class="carousel-item">
+                                    <a href="pagina principal.html">
+                                        <img src="../img/BANNER_LACLARITA.jpg" class=" w-100">
+                                    </a>
+                                </div>
+                            </div>
+                            <button class="carousel-control-prev" type="button"
+                                data-bs-target="#carouselExampleControls" data-bs-slide="prev">
+                                <span class="carousel-control-prev-icon" aria-hidden="true"></span>
+                                <span class="visually-hidden">Previous</span>
+                            </button>
+                            <button class="carousel-control-next" type="button"
+                                data-bs-target="#carouselExampleControls" data-bs-slide="next">
+                                <span class="carousel-control-next-icon" aria-hidden="true"></span>
+                                <span class="visually-hidden">Next</span>
+                            </button>
+                        </div>
+                    </div>
+                </div>
+            </div>
+
+        </div>
+        <%-include('./parcials/footer.ejs')%>
+
+
+</body>
+
+</html>
